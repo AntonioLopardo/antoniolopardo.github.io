@@ -1,4 +1,4 @@
-# A Representation Learner's Work
+# My Work
 
 ## [Adrenaline](https://github.com/LorenzoLaneve/adrenaline?tab=readme-ov-file)
 
