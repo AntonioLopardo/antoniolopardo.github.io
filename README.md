@@ -11,7 +11,7 @@
 ### [Data efficient representation learning for Optimal Flow Estimation]()
 
 <details>
-<summary>Click to see more</summary>
+<summary>See more</summary>
 
 ### [Are code-trained LLMs better math representation learners?]()
 
@@ -23,11 +23,11 @@
 
 ## Write ups and Presentations
 
-### [Brief history of representation learning in NLP circa 2006-2018]
+### [Brief history of representation learning in NLP circa 2006-2018]()
 
-### [Scaffolding and query representation learning for SOTA Text-to-SQL]
+### [Scaffolding and query representation learning for SOTA Text-to-SQL]()
 
-### [Representation learning for Homomorphic encryption]
+### [Representation learning for Homomorphic encryption]()
 
 ## Others
 
