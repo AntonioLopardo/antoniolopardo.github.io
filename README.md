@@ -8,7 +8,7 @@
 
 ### [Is collaborative filtering just representation learning](https://github.com/LucaMalagutti/CIL-ETHZ-2021)
 
-### [Data efficient representation learning for Optimal Flow Estimation]()
+### [Data efficient representation learning for Optical Flow Estimation]()
 
 <details>
 <summary>See more</summary>
