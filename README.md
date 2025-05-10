@@ -1,4 +1,8 @@
+# My Work
+What I've done
+
 ## Bio & Rationale
+Who I is
 
 ## Projects
 
