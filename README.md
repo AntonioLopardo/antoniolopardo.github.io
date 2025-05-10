@@ -8,16 +8,11 @@
 
 ### [Data efficient representation learning for Optical Flow Estimation]()
 
-<details>
-<summary>See more</summary>
-
 ### [Are code-trained LLMs better math representation learners?]()
 
 ### [Is domain-specific finetuning improving representations in retrieval-enhanced LLMs?]()
 
 ### [Congressional districts twitter sentiment representation learning for Us-Midterm elections]()
-
-</details>
 
 ## Write ups and Presentations
 
