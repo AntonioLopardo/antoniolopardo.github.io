@@ -1,5 +1,3 @@
-# My Work
-
 ## Bio & Rationale
 
 ## Projects
