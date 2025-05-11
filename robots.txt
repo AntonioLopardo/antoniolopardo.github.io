@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://antoniolopardo.github.io/sitemap.xml
+Sitemap: https://AntonioLopardo.github.io/sitemap.xml
