@@ -1,12 +1,12 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Antonio Lopardo
-    - name: Date of Birth
-      value: 2nd January 1998
-    - name: Languages
-      value: English, Italian
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Antonio Lopardo
+#     - name: Date of Birth
+#       value: 2nd January 1998
+#     - name: Languages
+#       value: English, Italian
 
 # - title: Education
 #   type: time_table
