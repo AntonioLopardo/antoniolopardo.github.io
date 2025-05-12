@@ -2,21 +2,21 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Antonio Lopardo
     - name: Date of Birth
-      value: 14th March 1879
+      value: 2nd January 1998
     - name: Languages
-      value: English, German
+      value: English, Italian
 
-- title: Education
-  type: time_table
-  contents:
-    - title: MSc
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 2023
-    - title: BSc
-      institution: Politecnico di Milano, Milan, Italy
-      year: 2020
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: MSc
+#       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+#       year: 2023
+#     - title: BSc
+#       institution: Politecnico di Milano, Milan, Italy
+#       year: 2020
 
 # - title: Experience
 #   type: time_table
@@ -70,7 +70,7 @@
 #         - Description 1.
 #         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> TRIATHLON
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> TRIATHLON

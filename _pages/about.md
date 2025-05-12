@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a machine learning engineer with a Master’s in Computer Science from ETH Zürich and a BSc in Computer Science and Engineering from Politecnico di Milano. I’ve worked on projects involving approximate nearest neighbor search, program synthesis, knowledge graph embeddings, and privacy-preserving NLP. My major research interests are in representation learning.
+I’m a machine learning engineer with a Master’s in Computer Science from ETH Zürich and a BSc in Computer Science and Engineering from Politecnico di Milano. I’ve worked on projects involving approximate nearest neighbor search, program synthesis, knowledge graph embeddings, and privacy-preserving NLP. My major research interest is representation learning.
