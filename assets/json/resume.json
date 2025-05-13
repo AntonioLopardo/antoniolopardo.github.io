@@ -88,6 +88,12 @@
       "endDate": "2021-06-01"
     },
     {
+      "name": "Multi-Human Optical Flow",
+      "url": "https://github.com/LucaMalagutti/MachinePerception-ETHZ-2021",
+      "startDate": "2018-03-01",
+      "endDate": "2018-06-01"
+    },
+    {
       "name": "The Midterms on Twitter - US Elections prediction",
       "url": "https://ieeexplore.ieee.org/document/8622441",
       "startDate": "2018-07-01",
@@ -108,6 +114,14 @@
     {
       "language": "Italian",
       "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Triathlon"
+    },
+    {
+      "name": "American Football"
     }
   ]
 }

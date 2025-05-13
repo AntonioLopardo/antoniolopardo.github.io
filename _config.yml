@@ -641,11 +641,11 @@ jsonresume:
   - work
   - education
   # - publications
-  # - projects
+  - projects
   # - volunteer
   # - awards
   # - certificates
   # - skills
   # - languages
-  # - interests
+  - interests
   # - references
