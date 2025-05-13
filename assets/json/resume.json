@@ -54,48 +54,62 @@
   "projects": [
     {
       "name": "Clustering for Approximate Nearest Neighbor Search",
-      "summary": "MSc Thesis focused on empirical analysis of trade-offs in billion-scale vector search",
+      "summary": "For my master thesis, I've worked on methods to speed up approximate nearest neighbor search. More specifically, I focused on improving clustering to reduce the cost of probing IVF indexes.",
       "highlights": [
         "Empirical analysis of trade-off of different clustering approaches to billion-scale vector search",
         "End-to-end approach to IVF index optimization",
         "Trained indexes with different algorithms, including Lloyd's algorithm and variations of gradient descent"
       ],
       "startDate": "2022-10-01",
-      "endDate": "2023-09-01"
+      "endDate": "2023-04-01"
     },
     {
       "name": "Word Vectors as KG embeddings",
+      "summary": "As part of the ETH AI Center project course, I've worked on verifying whether Knowledge Graph embeddings can be improved by initialization with contextual and non-contextual word vectors.",
       "url": "https://github.com/AntonioLopardo/WEForKGs",
       "startDate": "2022-04-01",
       "endDate": "2022-07-01"
     },
     {
       "name": "Program Synthesis for Math Word Problems",
+      "summary": "Transformer-based LLMs have shown incredible generative capabilities, producing text and even conducting dialogue significantly better than any previous architecture. One area in which they still struggle in is math. We tested whether recent open sourced LLMs trained to generate code might be useful for math word problems by bypassing arithmetic operations all together and sticking to producing Python programs that perform the operations when run.",
       "url": "https://github.com/AntonioLopardo/CodeSynthesisForMWP",
       "startDate": "2022-03-01",
       "endDate": "2022-06-01"
     },
     {
       "name": "Medical QA Project with Retrieval augmented LM",
+      "summary": "The project entailed adapting and finetuning an open domain QA system, RAG, for the medical domain. Unlike other open domain QA systems, that encode all their knowledge in their parameters, RAG leans on a textual knowledge base, like Wikipedia, to retrieve relevant information to answer questions. We finetuned RAG components to work better on the medical domain and developed a textual knowledge base of our own.",
       "url": "https://github.com/AntonioLopardo/RAG-Finetuning",
       "startDate": "2021-05-01",
       "endDate": "2021-07-01"
     },
     {
       "name": "Recommender Systems with BayesianSVD and Graph NNs",
+      "summary": "We experimented, as part of the collaborative filtering competition of the Computational Intelligence lab, with multiple state-of-the-art techniques to build recommender systems with limited or obscured data. A Bayesian version of SVD proved the most effective, but we also implemented Graph Convolutional Networks and other algorithms for matrix factorization and reconstruction.",
       "url": "https://github.com/LucaMalagutti/CIL-ETHZ-2021",
       "startDate": "2021-05-01",
-      "endDate": "2021-06-01"
+      "endDate": "2021-07-01"
     },
     {
       "name": "Multi-Human Optical Flow",
+      "summary": "The task of optical flow estimation consists in reliably identifying the pixel-by-pixel motion of objects between two consecutive images or frames of a video. To detect the motion of multiple people in a scene, we added a form of teacher-forcing and more channel dropout to the state-of-the-art neural architecture for the task (RAFT) and then trained it on synthetic data we generated.",
       "url": "https://github.com/LucaMalagutti/MachinePerception-ETHZ-2021",
-      "startDate": "2018-03-01",
-      "endDate": "2018-06-01"
+      "startDate": "2021-03-01",
+      "endDate": "2021-06-01"
+    },
+    {
+      "name": "Tabletop FPS in Java",
+      "summary": "In the final project before graduation, we were tasked with porting a tabletop FPS, Adrenaline, into JAVA using only the standard libraries and JavaFX. We made a point of applying as many software design patterns and OOP principles as possible.",
+      "url": "https://github.com/NoImaginationGuy/adrenaline",
+      "startDate": "2019-03-01",
+      "endDate": "2019-06-01"
     },
     {
       "name": "The Midterms on Twitter - US Elections prediction",
+      "summary": "The project focused on an NLP pipeline for prediction on the 2018 US Midterm elections. The system approaches the prediction problem by gathering local tweets and classifying them as democratic or republican aligned, thanks to an RNN trained on pre-labeled data. The research paper on the project got accepted into the 2018 IEEE international conference on Big Data.",
       "url": "https://ieeexplore.ieee.org/document/8622441",
+      "additionalUrl": "https://medium.com/@antonio.lopardo/the-midterms-on-twitter-3562b3c751b1",
       "startDate": "2018-07-01",
       "endDate": "2018-11-01"
     }
