@@ -29,4 +29,4 @@ I studied at ETH Zürich for my master's and have BSc from Politecnico di Milano
 
 I've woked on LLM fine-tuning, human-in-the-loop evaluation systems, and efficient vector search methods. During my studies I also explored medical question-answering with RAG, program synthesis for mathematical reasoning, and knowledge graph embeddings.
 
-Outside of work, my current research interests are in representation learning, but I spend most of my time training for triathlons, and complaining about not having time for anything else.
+Outside of work, my current research interests are in representation learning, but I spend most of my time training for triathlons, and complaining about not having time for anything else.🙃
