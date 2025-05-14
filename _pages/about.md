@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a machine learning engineer at Veezoo working on LLM-based natural language to SQL translation.
+I'm a machine learning engineer at [Veezoo](https://veezoo.com/) working on LLM-based natural language to SQL translation.
 I studied at ETH Zürich for my master's and have BSc from Politecnico di Milano.
 
 I've woked on LLM fine-tuning, human-in-the-loop evaluation systems, and efficient vector search methods. During my studies I also explored medical question-answering with RAG, program synthesis for mathematical reasoning, and knowledge graph embeddings.
