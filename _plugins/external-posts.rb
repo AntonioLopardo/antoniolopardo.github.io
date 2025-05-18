@@ -37,11 +37,11 @@ module ExternalPosts
           content: e.content,
           summary: e.summary,
           published: e.published
-        }, nil)
+        }, nil, nil)
       end
     end
 
-    def create_document(site, source_name, url, content, thumbnail)
+    def create_document(site, source_name, url, content, thumbnail, tags)
       # check if title is composed only of whitespace or foreign characters
       if content[:title].gsub(/[^\w]/, '').strip.empty?
         # use the source name and last url segment as fallback
@@ -63,6 +63,7 @@ module ExternalPosts
       doc.data['date'] = content[:published]
       doc.data['redirect'] = url
       doc.data['thumbnail'] = thumbnail if thumbnail
+      doc.data['tags'] = tags if tags
       doc.content = content[:content]
       site.collections['posts'].docs << doc
     end
@@ -72,7 +73,7 @@ module ExternalPosts
         puts "...fetching #{post_config['url']}"
         content = fetch_content_from_url(post_config['url'])
         content[:published] = parse_published_date(post_config['published_date'])
-        create_document(site, src['name'], post_config['url'], content, post_config['thumbnail'])
+        create_document(site, src['name'], post_config['url'], content, post_config['thumbnail'], post_config['tags'])
       end
     end
 
