@@ -88,7 +88,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: A Representation Learner # blog_name will be displayed in your blog page
-blog_description: There are many like it, but this one is mine.
+blog_description: This is my blog. There are many like it, but this one is mine.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -124,12 +124,30 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
     posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-
+      - url: https://medium.com/dair-ai/bart-are-all-pretraining-techniques-created-equal-e869a490042e
+        published_date: 2020-05-15
+        thumbnail: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*F26mikJYghMCClTE5suyMg.jpeg
+      - url: https://medium.com/data-science/word2vec-to-transformers-caf5a3daa08a
+        published_date: 2020-01-07
+        thumbnail: https://miro.medium.com/v2/resize:fit:1312/format:webp/1*sZ17cYbnzFt8nR-aITZI5w.png
+      - url: https://medium.com/@antonio.lopardo/the-basics-of-language-modeling-1c8832f21079
+        published_date: 2019-12-23
+        thumbnail: https://miro.medium.com/v2/resize:fit:4800/format:webp/1*rJN4xBVD_u0vYLc2olcDHQ.png
+      - url: https://medium.com/@antonio.lopardo/the-midterms-on-twitter-3562b3c751b1
+        published_date: 2018-11-05
+        thumbnail: https://miro.medium.com/v2/resize:fit:4800/format:webp/1*AIIuDZoBCt_wm31Jfit3TQ.png
+  - name: OpenMined
+    posts:
+      - url: https://openmined.org/blog/what-is-federated-learning/
+        published_date: 2020-05-19
+        thumbnail: https://openmined.org//wp-content/uploads/2024/11/U17r70FpB7HSPmBoZbsPhCJLxvDzEAdfHwJcmr9U8pKUNHBIbj-OT3XaA_iu4qLqpfEHdSXdYSPK8f1Qj3JIascRo2WAhIVgf2oFvi55F2HKROmpwwNz8gpRNoHk_wG8gARH9E0T.png
+      - url: https://openmined.org/blog/what-is-secure-multi-party-computation/
+        published_date: 2020-05-19
+        thumbnail: https://openmined.org//wp-content/uploads/2024/11/OM-Graphic-5@3x-1.png
+      - url: https://openmined.org/blog/what-is-homomorphic-encryption/
+        published_date: 2020-08-13
+        thumbnail: https://openmined.org//wp-content/uploads/2024/11/OM-CKKS-Graphic-v.01@2x-2.png
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
@@ -193,7 +211,7 @@ exclude:
   - _pages/teaching.md
   - _pages/profiles.md
   - _pages/projects.md
-  - _pages/blog.md
+  - _posts/sample_posts
   - _pages/dropdown.md
   - purgecss.config.js
   - README.md
@@ -264,7 +282,7 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
