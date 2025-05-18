@@ -125,7 +125,7 @@ pagination:
 {% if post.thumbnail %}
 
 <div class="row">
-          <div class="col-sm-9">
+          <div class="col-sm-8">
 {% endif %}
         <h3>
         {% if post.redirect == blank %}
@@ -178,8 +178,8 @@ pagination:
 
 </div>
 
-  <div class="col-sm-3">
-    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
+  <div class="col-sm-4">
+    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: contain;" alt="image">
   </div>
 </div>
 {% endif %}
