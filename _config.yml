@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Representation Learning # blog_name will be displayed in your blog page
+blog_name: A Representation Learner # blog_name will be displayed in your blog page
 blog_description: This is my blog. There are many like it, but this one is mine.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
