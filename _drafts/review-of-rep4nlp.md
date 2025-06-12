@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "What's Happening in Representation Learning? A Look at REP4NLP 2025"
-date: 2025-01-27 00:00:00 +0000
+date: 2025-06-12 00:00:00 +0000
 categories: nlp
 # Optional: add or remove tags as you prefer
 tags: [Research, NLP]
-hidden: true
 ---
 
 ## Why I Care About Representation Learning
