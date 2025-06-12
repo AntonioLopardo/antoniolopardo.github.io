@@ -20,7 +20,7 @@ hidden: true
 
 [PLACEHOLDER - Introduction to paper categories]
 
-### 🔬 Interpretability and Understanding Model Representations
+### Interpretability and Understanding Model Representations
 
 **Tracking Universal Features Through Fine-Tuning and Model Merging**
 📊 **OpenReview:** N/A | **Suggestion:** [Analyze (Standout)](#tracking-universal-features-through-fine-tuning-and-model-merging) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.1/)
@@ -37,7 +37,7 @@ hidden: true
 **Notes:**
 [PLACEHOLDER - Analysis of methodological approach and findings]
 
-### 📝 Text Embeddings
+### Text Embeddings
 
 **Prompt Tuning Can Simply Adapt Large Language Models to Text Encoders**
 📊 **OpenReview:** N/A | **Suggestion:** Read (If you like embeedings) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.12/)
@@ -53,7 +53,7 @@ hidden: true
 **Notes:**
 [PLACEHOLDER - Findings about parameter pruning and efficiency questions]
 
-### 🏗️ Alternative Architectures & Pre-training Objectives
+### Alternative Architectures & Pre-training Objectives
 
 **State Space Models are Strong Text Rerankers**
 📊 **OpenReview:** N/A | **Suggestion:** Skim | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.13/)
@@ -73,7 +73,7 @@ hidden: true
 📊 **OpenReview:** N/A | **Suggestion:** [Read (Standout)](#depth-discourse-education-through-pre-training-hierarchically) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.10/)
 <small>🏷️ **Tags:** #discourse-learning #hierarchical-pretraining #educational-nlp</small>
 
-### ⚡ Efficiency Gains
+### Efficiency Gains
 
 **Choose Your Words Wisely: Domain-adaptive Masking Makes Language Models Learn Faster**
 📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.5/)
@@ -87,7 +87,7 @@ hidden: true
 📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.8/)
 <small>🏷️ **Tags:** #memory-efficiency #vocabulary-optimization #fine-tuning #resource-optimization</small>
 
-### 🧠 Multi-Modal or Task-specific
+### Multi-Modal or Task-specific
 
 **Cross-Modal Learning for Music-to-Music-Video Description Generation**
 📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.11/)
