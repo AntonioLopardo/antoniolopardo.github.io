@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-what-is-homomorphic-encryption-openmined",
+        },{id: "post-what-39-s-happening-in-representation-learning-a-look-at-rep4nlp-2025",
+        
+          title: "What&#39;s Happening in Representation Learning? A Look at REP4NLP 2025",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/review-of-rep4nlp/";
+          
+        },
+      },{id: "post-what-is-homomorphic-encryption-openmined",
         
           title: 'What is Homomorphic Encryption? – OpenMined <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
