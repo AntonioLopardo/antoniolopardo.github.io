@@ -1,6 +1,6 @@
 # What's Happening in Representation Learning? A Look at REP4NLP 2025
 
-*A workshop on representation learning*
+_A workshop on representation learning_
 
 ---
 
@@ -18,80 +18,80 @@ I will not attempt to define what is or isn't representation learning, but the c
 
 ### 🔬 **Interpretability and Understanding Model Representations**
 
-**Tracking Universal Features Through Fine-Tuning and Model Merging**  
-📊 **OpenReview:** N/A | **Suggestion:** [Analyze (Standout)](#tracking-universal-features-through-fine-tuning-and-model-merging) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.1/)  
+**Tracking Universal Features Through Fine-Tuning and Model Merging**
+📊 **OpenReview:** N/A | **Suggestion:** [Analyze (Standout)](#tracking-universal-features-through-fine-tuning-and-model-merging) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.1/)
 <small>🏷️ **Tags:** #feature-analysis #model-merging #sparse-autoencoders #transfer-learning</small>
 
-**A Comparative Study of Learning Paradigms in Large Language Models via Intrinsic Dimension**  
-📊 **OpenReview:** N/A | **Suggestion:** [Analyze (Standout)](#a-comparative-study-of-learning-paradigms-in-large-language-models-via-intrinsic-dimension) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.2/)  
+**A Comparative Study of Learning Paradigms in Large Language Models via Intrinsic Dimension**
+📊 **OpenReview:** N/A | **Suggestion:** [Analyze (Standout)](#a-comparative-study-of-learning-paradigms-in-large-language-models-via-intrinsic-dimension) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.2/)
 <small>🏷️ **Tags:** #intrinsic-dimension #in-context-learning #supervised-fine-tuning #representation-analysis</small>
 
-**Reverse Probing: Evaluating Knowledge Transfer via Finetuned Task Embeddings for Coreference Resolution**  
-📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.3/)  
-<small>🏷️ **Tags:** #probing #knowledge-transfer #coreference-resolution #evaluation-methodology</small>  
+**Reverse Probing: Evaluating Knowledge Transfer via Finetuned Task Embeddings for Coreference Resolution**
+📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.3/)
+<small>🏷️ **Tags:** #probing #knowledge-transfer #coreference-resolution #evaluation-methodology</small>
 **Notes:** Not that interesting but has good vibes - like the methodological flip of typical probing. Instead of probing complex task representations on simple tasks, they probe simple task embeddings on complex tasks. Neat finding that semantic similarity tasks (paraphrase detection) transfer best to coreference resolution.
 
 ### 📝 **Text Embeddings**
 
-**Prompt Tuning Can Simply Adapt Large Language Models to Text Encoders**  
-📊 **OpenReview:** N/A | **Suggestion:** Read (If you like embeedings) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.12/)  
+**Prompt Tuning Can Simply Adapt Large Language Models to Text Encoders**
+📊 **OpenReview:** N/A | **Suggestion:** Read (If you like embeedings) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.12/)
 <small>🏷️ **Tags:** #prompt-tuning #text-encoders #parameter-efficiency #llm-adaptation</small>
 **Notes:** Interesting comparison between bidirectional attention and unidirectional one. Cool that it is on embeddings. Interesting to combine with diffusion LLMs.
 
-**Large Language Models Are Overparameterized Text Encoders**  
-📊 **OpenReview:** N/A | **Suggestion:** Read (If you like embeedings) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.7/)  
+**Large Language Models Are Overparameterized Text Encoders**
+📊 **OpenReview:** N/A | **Suggestion:** Read (If you like embeedings) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.7/)
 <small>🏷️ **Tags:** #model-pruning #overparameterization #text-encoders #efficiency</small>
 **Notes:** Super cool finding: can prune 30% of layers with negligible impact, 80% with modest drop. Big question: if 30% of parameters do nothing semantically, what ARE they doing? Possibilities: implicit regularization? optimization dynamics? generation-specific computation not needed for encoding? L3Prune method is elegantly simple (3 lines of code) yet effective. Raises fundamental questions about parameter efficiency and what different model components actually contribute.
 
 ### 🏗️ **Alternative Architectures & Pre-training Objectives**
 
-**State Space Models are Strong Text Rerankers**  
-📊 **OpenReview:** N/A | **Suggestion:** Skim | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.13/)  
-<small>🏷️ **Tags:** #state-space-models #mamba #text-reranking #information-retrieval</small>  
+**State Space Models are Strong Text Rerankers**
+📊 **OpenReview:** N/A | **Suggestion:** Skim | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.13/)
+<small>🏷️ **Tags:** #state-space-models #mamba #text-reranking #information-retrieval</small>
 **Notes:** Main thing here is that there's a lot to experiment with across multiple dimensions: 1) Model architecture (SSMs vs Transformers), 2) Model objective (different pretraining approaches), 3) Finetuning strategies, 4) RLHF approaches. Interesting finding that Mamba models are competitive but less efficient than Transformers with flash attention. Shows the rich experimental space opened up by alternative architectures.
 
-**Punctuation Restoration Improves Structure Understanding without Supervision**  
-📊 **OpenReview:** N/A | **Suggestion:** Skim | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.14/)  
-<small>🏷️ **Tags:** #punctuation-restoration #structural-understanding #unsupervised-learning #linguistic-structure</small>  
+**Punctuation Restoration Improves Structure Understanding without Supervision**
+📊 **OpenReview:** N/A | **Suggestion:** Skim | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.14/)
+<small>🏷️ **Tags:** #punctuation-restoration #structural-understanding #unsupervised-learning #linguistic-structure</small>
 **Notes:** Paper itself doesn't look that interesting but the core idea is quite cool. The concept of finding increasingly complex objectives to learn better representations is compelling. Shows that punctuation restoration improves structure-related tasks (NER, chunning, POS tagging) by ≥2%p in 16/18 experiments. Suggests current pretraining objectives (MLM, autoregressive) miss important structural knowledge.
 
-**DEPTH: Discourse Education through Pre-Training Hierarchically**  
-📊 **OpenReview:** N/A | **Suggestion:** [Read (Standout)](#depth-discourse-education-through-pre-training-hierarchically) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.10/)  
+**DEPTH: Discourse Education through Pre-Training Hierarchically**
+📊 **OpenReview:** N/A | **Suggestion:** [Read (Standout)](#depth-discourse-education-through-pre-training-hierarchically) | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.10/)
 <small>🏷️ **Tags:** #discourse-learning #hierarchical-pretraining #educational-nlp</small>
 
 ### ⚡ **Efficiency Gains**
 
-**Choose Your Words Wisely: Domain-adaptive Masking Makes Language Models Learn Faster**  
-📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.5/)  
+**Choose Your Words Wisely: Domain-adaptive Masking Makes Language Models Learn Faster**
+📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.5/)
 <small>🏷️ **Tags:** #domain-adaptation #efficient-training #masked-language-modeling #biomedical-nlp</small>
 
-**Amuro & Char: Analyzing the Relationship between Pre-Training and Fine-Tuning of Large Language Models**  
-📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.4/)  
+**Amuro & Char: Analyzing the Relationship between Pre-Training and Fine-Tuning of Large Language Models**
+📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.4/)
 <small>🏷️ **Tags:** #pre-training #fine-tuning #continual-learning #model-analysis</small>
 
-**Vocabulary-level Memory Efficiency for Language Model Fine-tuning**  
-📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.8/)  
+**Vocabulary-level Memory Efficiency for Language Model Fine-tuning**
+📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.8/)
 <small>🏷️ **Tags:** #memory-efficiency #vocabulary-optimization #fine-tuning #resource-optimization</small>
 
 ### 🧠 **Multi-Modal or Task-specific**
 
-**Cross-Modal Learning for Music-to-Music-Video Description Generation**  
-📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.11/)  
+**Cross-Modal Learning for Music-to-Music-Video Description Generation**
+📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.11/)
 <small>🏷️ **Tags:** #cross-modal #music-video #multimodal-learning #generation</small>
 
-**Efficient Document-level Event Relation Extraction**  
-📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.9/)  
+**Efficient Document-level Event Relation Extraction**
+📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.9/)
 <small>🏷️ **Tags:** #event-extraction #efficiency #document-level #two-stage-framework</small>
 
-**Investigating Adapters for Parameter-efficient Low-resource Automatic Speech Recognition**  
-📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.6/)  
+**Investigating Adapters for Parameter-efficient Low-resource Automatic Speech Recognition**
+📊 **OpenReview:** N/A | **Suggestion:** Open | 🔗 [ACL Anthology](https://aclanthology.org/2025.repl4nlp-1.6/)
 <small>🏷️ **Tags:** #adapters #parameter-efficiency #speech-recognition #low-resource</small>
 
 ## Standout Papers
 
 ### Tracking Universal Features Through Fine-Tuning and Model Merging
 
-*Niels Nielsen Horn, Desmond Elliott*
+_Niels Nielsen Horn, Desmond Elliott_
 
 #### My thoughts
 
@@ -103,7 +103,7 @@ I will not attempt to define what is or isn't representation learning, but the c
 
 ### DEPTH: Discourse Education through Pre-Trained Hierarchically
 
-*Zachary Elisha Bamberger, Ofek Glick, Chaim Baskin, Yonatan Belinkov*
+_Zachary Elisha Bamberger, Ofek Glick, Chaim Baskin, Yonatan Belinkov_
 
 #### My thoughts
 
@@ -113,7 +113,7 @@ I will not attempt to define what is or isn't representation learning, but the c
 
 ### A Comparative Study of Learning Paradigms in Large Language Models via Intrinsic Dimension
 
-*Saahith Janapati, Yangfeng Ji*
+_Saahith Janapati, Yangfeng Ji_
 
 #### My thoughts
 
@@ -124,7 +124,7 @@ I will not attempt to define what is or isn't representation learning, but the c
 
 ### Bonus: From Tokens to Thoughts - How LLMs and Humans Trade Compression for Meaning
 
-*Chen Shani, Dan Jurafsky, Yann LeCun, Ravid Shwartz-Ziv*
+_Chen Shani, Dan Jurafsky, Yann LeCun, Ravid Shwartz-Ziv_
 
 [Placeholder from LLM]This paper asks a fundamental question: do Large Language Models strike the same trade-off between representation compression and semantic fidelity that humans do? Using Rate-Distortion Theory and the Information Bottleneck principle, the authors quantitatively compare human judgements with token embeddings across GPT-2, GPT-NeoX, Llama models, and PaLM-2.
 
@@ -134,7 +134,7 @@ Key findings reveal a striking tension:
 
 - **Global alignment but local mismatch** - Models form broad conceptual clusters (birds, tools) matching human categories but miss fine-grained distinctions that humans preserve
 - **Compression bias** - LLM curves consistently sit below human curves, indicating they use fewer bits for the same distortion - essentially over-compressing
-- **Scale helps but saturates** - Larger models (70B) get closer to human performance but still underperform on semantic nuance  
+- **Scale helps but saturates** - Larger models (70B) get closer to human performance but still underperform on semantic nuance
 - **Polysemy collapse** - Models merge multiple senses of words into single centroids while humans keep them separate
 
 #### My thoughts
