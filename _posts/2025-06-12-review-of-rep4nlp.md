@@ -7,7 +7,7 @@ categories: nlp
 tags: [Research, NLP]
 hidden: true
 toc:
-  beginning: true
+  sidebar: left
 ---
 
 ## Introduction: Why I Care About Representation Learning
