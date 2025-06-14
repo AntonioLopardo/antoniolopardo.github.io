@@ -6,6 +6,8 @@ categories: nlp
 # Optional: add or remove tags as you prefer
 tags: [Research, NLP]
 hidden: true
+toc:
+  beginning: true
 ---
 
 ## Introduction: Why I Care About Representation Learning
